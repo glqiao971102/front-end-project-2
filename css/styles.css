@@ -1,0 +1,149 @@
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    font-family: 'Roboto Slab', serif;
+    
+
+}
+
+p {
+
+    text-align: center;
+    
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+li a,
+p a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-nav a{
+
+    text-align: center;
+    display:block;
+    padding: 10px 15px;
+    background-color: white;
+    margin-bottom: 5px;
+    
+}
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    
+}
+
+h2,
+h3 {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+/* Classes */
+
+.main-header{
+    background-color: aqua;
+    margin: auto;
+}
+
+.name{
+    font-size: 1.5em;
+    text-align:center;
+    padding-top: 25px;
+}
+
+
+.main-nav{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+
+.user-response {
+    padding: 30px 50px;
+}
+
+.main-content {
+    
+    padding: 0px 50px 25px 50px;
+
+}
+
+.main-contact {
+    background-color: aqua;
+    padding: 1px 0;
+    border-bottom: 2px dashed grey;
+}
+
+.contact-info {
+    padding: 0 50px 0 50px;
+}
+
+.mobile-back-to-top {
+
+    background-color: aqua;
+    margin: auto;
+    padding-top: 0;
+    overflow: hidden;
+
+}
+
+.footer-name{
+
+    float: left;
+    padding-left: 20px;
+}
+
+.back-to-top {
+    
+    float: right;
+    padding-right: 20px;
+}
+
+/* Hide element in mobile */
+
+.destop-back-to-top {
+
+    display: none;
+
+
+}
+
+/* Layout Containers  */
+
+
+
+/* Media queries styles */
+
+@media (min-width: 768px) {
+
+
+
+
+}
+
+
+@media (min-width: 1024px) {
+
+
+
+
+}
