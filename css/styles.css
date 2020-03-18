@@ -7,7 +7,7 @@
 
 body{
 
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merienda','Roboto Slab', serif;
     
 
 }
@@ -15,7 +15,7 @@ body{
 p {
 
     text-align: center;
-    
+    font-family: 'Roboto Slab', serif;
 }
 
 li{
@@ -267,9 +267,16 @@ h3 {
 
 @media (min-width: 1024px) {
 
+    .portfolio {
+
+        padding-right: 20px;
+
+    }
+    
+
     .container {
 		
-		max-width: 100%;
+		
 		margin: 0 auto;
     
 	}
@@ -277,6 +284,9 @@ h3 {
     .main-nav {
         
         padding-top: 12px;
+        padding-left: 40px;
+        float: right;
+        width: 70%;
         
 	}
 
@@ -286,29 +296,22 @@ h3 {
     .main-nav li{
 
         float: left;
-
+        margin: 27px 0 0 0 ;
     }
     
+
     .profile-image {
 
+		width: 30%;
         float: right;
-
-    }
-
-    .profile-image {
-		width: 300px;
-		float: right;
-		
-		
-		padding: 10px;
+        padding: 10px;
 		
 	}
 
     .user-response{
-        width: 500px;
+        width: 65%;
         float: left;
         font-size: 1.2em;
-        margin-bottom: 1.5em;
         
     }
 
@@ -345,4 +348,4 @@ h3 {
 
       }
 
-}
+     
